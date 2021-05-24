@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Anecdotes from "./components/Anecdotes";
+import Anecdotes from "../components/Anecdotes";
 
 const Header = ({ text }) => <h1>{text}</h1>;
 const Button = ({ handleClick, text }) => <button onClick={handleClick}>{text}</button>;
