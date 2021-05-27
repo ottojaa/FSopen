@@ -1,5 +1,5 @@
 import ReactDOM from "react-dom";
-import App from "./part2/App";
+import AppCountries from "./part2/AppCountries";
 
 const notes = [
   {
@@ -22,4 +22,4 @@ const notes = [
   },
 ];
 
-ReactDOM.render(<App notes={notes} />, document.getElementById("root"));
+ReactDOM.render(<AppCountries notes={notes} />, document.getElementById("root"));
